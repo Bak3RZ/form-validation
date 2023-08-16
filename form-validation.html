@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+  <head>
+    <title>form-validation</title>
+    <link   href="stylesheet.css"     rel="stylesheet">
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+
+    <div    class="container">
+
+        <form   action="https://formsubmit.co/kagiso@mcdmagicfactory.com"   method="POST">
+
+            <label  for="id">User id:</label>
+            <input  id="id"    type="number"    minlength="5" maxlength="12"   required >
+            
+    
+            <label  for="pwd">Password:</label>
+            <input  id="pwd"   type="password" minlength="7" maxlength="12"  required >
+            
+    
+            <label  for="name">Name:</label>
+            <input  id="name" type="text"   required >
+            
+    
+            <label  for="address">Address:</label>
+            <input  id="address"   type="text">
+            
+    
+            <label  for="country">Country:</label>
+            <select id="country">
+                <option value="South Africa">South Africa</option>
+                <option value="Botswana">Botswana</option>
+                <option value="Lesotho">Lesotho</option>
+                <option value="Swatini">Swatini</option>
+                <option value="Zimbabwe">Zimbabwe</option>
+            </select>
+            
+    
+            <label  for="zipcode">Zip Code:</label>
+            <input  id="zipcode"  type="number" minlength="4"   maxlength="4"   required>
+            
+    
+            <label  for="email">Email:</label>
+            <input  id="email"  type="email">
+            
+    
+            <label  for="sex">Sex:</label>
+
+            <div    class="sex" required>
+
+                <input  id="male" type="radio" name="radio" value="Male" required/>
+                <label for="male">Male</label>
+
+                <input  id="female" type="radio" name="radio" value="Female" required/>
+                <label for="female">Female</label>
+                
+            </div>
+
+            <label  for="language">Language:</label>
+
+            <div    class="lang" required>
+
+                <input  id="english" type="checkbox" name="radio" value="English"/>
+                <label for="english">English</label>
+
+                <input  id="nonEnglish" type="checkbox" name="radio" value="nonEnglish"/>
+                <label for="nonEnglish">Non English</label>
+                
+            </div>
+
+            <label  for="about">About:</label>
+            <textarea   id="about"  name="about">
+
+            </textarea>
+
+            <button type="submit"   id="submit">SUBMIT</button>
+            
+    
+        </form>
+
+    </div>
+
+  </body>
+</html>

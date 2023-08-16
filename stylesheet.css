@@ -1,0 +1,81 @@
+body {
+    margin: 3rem;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-gap: 20px;
+    padding: 1rem;
+}
+
+label   {
+    text-align: right;
+    grid-column: 1/2;
+    margin-top: 1rem;
+}
+
+input   {
+    grid-column: 2/3;
+    margin-top: 1rem;
+}
+
+#id {
+    width: 20%;
+    height: 30%;
+
+}
+
+#pwd    {
+    width: 20%;
+    height: 30%;
+
+}
+
+select  {
+    grid-column: 2/3;
+    margin-top: 1rem;
+    width: 15%;
+    height: 30%;
+}
+
+#name  {
+    grid-column: 2/3;
+    margin-top: 1rem;
+    width: 30%;
+    height: 30%;
+}
+
+#address  {
+    grid-column: 2/3;
+    margin-top: 1rem;
+    width: 30%;
+    height: 30%;
+}
+
+#zipcode  {
+    grid-column: 2/3;
+    margin-top: 1rem;
+    width: 15%;
+    height: 30%;
+}
+
+#email  {
+    grid-column: 2/3;
+    margin-top: 1rem;
+    width: 20%;
+    height: 30%;
+}
+
+#about  {
+    grid-column: 2/3;
+    width: 30%;
+    line-height: 5;
+}
+
+#submit{
+    margin-left: 15rem;
+    width: 100%;
+    background-color: aqua;
+}
+
